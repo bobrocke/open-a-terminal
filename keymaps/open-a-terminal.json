@@ -1,0 +1,4 @@
+{".platform-darwin .tree-view": {
+  "ctrl-cmd-t": "open-a-terminal:open"
+  }
+}

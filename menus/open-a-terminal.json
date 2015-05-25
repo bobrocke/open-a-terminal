@@ -1,0 +1,31 @@
+{
+  "context-menu":{
+    ".platform-darwin .tree-view": [
+      {
+        "label": "Open A Terminal",
+        "submenu": [
+          {
+            "label": "Open A Terminal Here",
+            "command": "open-a-terminal:open"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Open A Terminal",
+          "submenu": [
+            {
+              "label": "Open A Terminal Here",
+              "command": "open-a-terminal:open"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
