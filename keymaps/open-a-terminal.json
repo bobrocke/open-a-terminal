@@ -1,0 +1,6 @@
+{
+  ".tree-view": [
+    {"ctrl-cmd-t": "open-a-terminal:openroot"},
+    {"alt-cmd-t": "open-a-terminal:openhere"}
+  ]
+}

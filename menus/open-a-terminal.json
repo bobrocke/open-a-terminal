@@ -1,0 +1,39 @@
+{
+  "context-menu": {
+    ".tree-view": [
+      {
+        "label": "Open A Terminal",
+        "submenu": [
+          {
+            "label": "Open A Terminal on the Project",
+            "command": "open-a-terminal:openroot"
+          },
+          {
+            "label": "Open A Terminal Here",
+            "command": "open-a-terminal:openhere"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Open A Terminal",
+          "submenu": [
+            {
+              "label": "Open A Terminal on the Project",
+              "command": "open-a-terminal:openroot"
+            },
+            {
+              "label": "Open A Terminal Here",
+              "command": "open-a-terminal:openhere"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "open-a-terminal",
+  "main": "./lib/open-a-terminal",
+  "version": "1.0.0",
+  "description": "A package to open a terminal from the tree view",
+  "keywords": [
+  ],
+  "activationCommands": {
+    ".tree-view": [
+      "open-a-terminal:openroot",
+      "open-a-terminal:openhere"
+    ]
+  },
+  "repository": "https://github.com/bobrocke/open-a-terminal",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
